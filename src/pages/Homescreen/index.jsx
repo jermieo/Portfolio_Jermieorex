@@ -4,7 +4,7 @@ import Footer from "../Home/Footer";
 import HeroSection from "../Home/HeroSection";
 import MyPortfolio from "../Home/MyPortfolio";
 import MySkills from "../Home/MySkills";
-import Project1 from "../Home/project1";
+// import Project1 from "../Home/project1";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <AboutMe />
       <MySkills />
       <MyPortfolio />
-      <Project1 />
+      {/* <Project1 /> */}
       <ContactMe />
       <Footer />
     </>
