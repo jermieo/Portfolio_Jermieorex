@@ -1,0 +1,38 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "../src/assets/react.svg",
+      "title": "React Js",
+      "description": "React hooks (useEffect(), useContext(), useRef(), useReducer()) and React Redux and Redux Toolkit and Handling HTTP requests using Axios and Fetch.."
+    },
+    {
+      "id": "2",
+      "src": "../src/assets/favicon.ico",
+      "title": "Angular",
+      "description": "Well-versed in modules, components, dependency injection, templates,data binding, directives, services, routing, forms, pipes and HTTPClient concepts."
+    },
+    {
+      "id": "3",
+      "src": "../src/assets/html.png",
+      "title": "UI & UX Design",
+      "description": " HTML and CSS and Bootstrap5 and React Bootstrap,and Angular Material UI and React-icons and Moment.js,MUI-React I Can do Other UI also.."
+    },
+    {
+      "id": "4",
+      "src": "../src/assets/javascript.jpg",
+      "title": "Programming Language",
+      "description": "Good understanding of ES6 concepts, as well as string and arraymethods in JavaScript."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "../src/assets/GitHub-Logo.png",
+      "title": "Petty Cash",
+      "description": "I conceptualized and implemented a streamlined solution for managing petty cash, demonstrating my proficiency as a problem solver and developer. Faced with the challenge of inefficient petty cash management, I designed and developed a comprehensive system that automated the tracking and reporting of small expenses. Leveraging my skills in full-stack development, I utilized technologies such as HTML, CSS, Javascript , React Js and Node Js to create a user-friendly interface and a robust backend system. The implementation not only enhanced the accuracy and transparency of petty cash management but also significantly reduced manual efforts and errors. This project reflects my ability to identify practical issues and deliver effective solutions through innovative and efficient coding practices.",
+      "link": "https://github.com/jermieo/RxWebsiteFrontEnd.git"
+    }
+
+  ]
+}
