@@ -1,6 +1,6 @@
 export default function HeroSection() {
   const handleDownload = () => {
-    const cvDocumentPath = "../src/assets/JermieoRex.pdf";
+    const cvDocumentPath = "/assets/JermieoRex.pdf";
     // Initiating download
     const anchor = document.createElement("a");
     anchor.href = cvDocumentPath;
@@ -27,7 +27,7 @@ export default function HeroSection() {
         </button>
       </div>
       <div className="hero--section--img">
-        <img src="..\src\assets\programming.avif" alt="Hero Section" />
+        <img src="/assets/programming.avif" alt="Hero Section" />
       </div>
     </section>
   );

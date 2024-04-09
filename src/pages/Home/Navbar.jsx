@@ -6,7 +6,7 @@ function Navbar() {
       <div>
         <img
           className="navbar--img"
-          src="..\src\assets\logoipsum-247.svg"
+          src="/assets/logoipsum-247.svg"
           alt="Logoipsum"
         />
       </div>
