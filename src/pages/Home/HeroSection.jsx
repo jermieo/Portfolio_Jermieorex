@@ -4,7 +4,8 @@ export default function HeroSection() {
     // Initiating download
     const anchor = document.createElement("a");
     anchor.href = cvDocumentPath;
-    anchor.download = "cv_document.pdf";
+    anchor.target = "_blank";
+    // anchor.download = "cv_document.pdf";
     anchor.click();
   };
   return (

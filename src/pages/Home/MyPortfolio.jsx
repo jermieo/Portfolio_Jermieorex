@@ -24,27 +24,54 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <div>
-                <a
-                  href="https://rx-website-front.netlify.app"
-                  className="navbar--content"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  https://rx-website-front.netlify.app
-                </a>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-evenly",
+                }}
+              >
+                <div style={{ padding: "20px" }}>
+                  <button class="btn btn-info">
+                    <a
+                      href="https://rx-website-front.netlify.app"
+                      className="navbar--content"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      deploy-url
+                    </a>
+                  </button>
+                </div>
+                <div style={{ padding: "20px" }}>
+                  <p className="git-line portfolio--link">
+                    {/* {item.link} */}
+                    <button class="btn btn-info">
+                      <a
+                        href="https://github.com/jermieo/RxWebsiteFrontEnd.git"
+                        className="navbar--content"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        github-url (Front-End)
+                      </a>
+                    </button>
+                  </p>
+                </div>
+                <div style={{ padding: "20px" }}>
+                  <p className="git-line portfolio--link">
+                    <button class="btn btn-info">
+                      <a
+                        href="https://github.com/jermieo/RxWebsiteBackEnd.git"
+                        className="navbar--content"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        github-url (Back-End)
+                      </a>
+                    </button>
+                  </p>
+                </div>
               </div>
-              <p className="git-line portfolio--link">
-                {item.link}
-                <a
-                  href="https://github.com/jermieo/RxWebsiteFrontEnd"
-                  className="navbar--content"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <FaArrowRight />
-                </a>
-              </p>
             </div>
           </div>
         ))}
