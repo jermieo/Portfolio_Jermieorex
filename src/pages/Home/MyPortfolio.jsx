@@ -9,6 +9,7 @@ export default function MyPortfolio() {
           <h2 className="section--heading">My Portfolio</h2>
         </div>
       </div>
+      {/* Petty-Cash */}
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
@@ -33,7 +34,7 @@ export default function MyPortfolio() {
                 <div style={{ padding: "20px" }}>
                   <button class="btn btn-info">
                     <a
-                      href="https://rx-website-front.netlify.app"
+                      href={item.deployurl}
                       className="navbar--content"
                       target="_blank"
                       rel="noreferrer"
@@ -47,7 +48,7 @@ export default function MyPortfolio() {
                     {/* {item.link} */}
                     <button class="btn btn-info">
                       <a
-                        href="https://github.com/jermieo/RxWebsiteFrontEnd.git"
+                        href={item.linkFE}
                         className="navbar--content"
                         target="_blank"
                         rel="noreferrer"
@@ -61,7 +62,7 @@ export default function MyPortfolio() {
                   <p className="git-line portfolio--link">
                     <button class="btn btn-info">
                       <a
-                        href="https://github.com/jermieo/RxWebsiteBackEnd.git"
+                        href={item.linkBE}
                         className="navbar--content"
                         target="_blank"
                         rel="noreferrer"
