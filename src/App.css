@@ -384,6 +384,8 @@ h2 {
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  box-shadow:#006b6a
+  
 }
 .portfolio--section--card--content {
   display: flex;
@@ -392,6 +394,7 @@ h2 {
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
+  margin-top: -62px;
 }
 .portfolio--section--title {
   color: var(--heading-color);

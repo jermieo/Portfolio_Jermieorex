@@ -1,5 +1,4 @@
 import data from "../../data/index.json";
-import { FaArrowRight } from "react-icons/fa";
 export default function MyPortfolio() {
   return (
     <section className="portfolio--section" id="MyPortfolio">
@@ -25,13 +24,8 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-evenly",
-                }}
-              >
-                <div style={{ padding: "20px" }}>
+              <div>
+                <div>
                   <button class="btn btn-info">
                     <a
                       href={item.deployurl}
@@ -43,7 +37,8 @@ export default function MyPortfolio() {
                     </a>
                   </button>
                 </div>
-                <div style={{ padding: "20px" }}>
+                <br />
+                <div>
                   <p className="git-line portfolio--link">
                     {/* {item.link} */}
                     <button class="btn btn-info">
@@ -58,7 +53,7 @@ export default function MyPortfolio() {
                     </button>
                   </p>
                 </div>
-                <div style={{ padding: "20px" }}>
+                <div>
                   <p className="git-line portfolio--link">
                     <button class="btn btn-info">
                       <a
