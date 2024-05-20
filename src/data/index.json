@@ -30,7 +30,7 @@
       "id": "1",
       "src": "/assets/GitHub-Logo.png",
       "title": "Petty Cash",
-      "description": "I conceptualized and implemented a streamlined solution for managing petty cash, demonstrating my proficiency as a problem solver and developer, I designed and developed a comprehensive system that automated the tracking and reporting of small expenses. Leveraging my skills in full-stack development, I utilized technologies such as HTML, CSS, Javascript , React Js and Node Js to create a user-friendly interface and a robust backend system. The implementation not only enhanced the accuracy and transparency of petty cash management but also significantly reduced manual efforts and errors. This project reflects my ability to identify practical issues and deliver effective solutions through innovative and efficient coding practices.",
+      "description": "I conceptualized and implemented a streamlined solution for managing petty cash, demonstrating my proficiency as a problem solver and developer, I designed and developed a comprehensive system that automated the tracking and reporting of small expenses. Leveraging my skills in full-stack development, I utilized technologies such as HTML, CSS, Javascript , React Js and Node Js to create a user-friendly interface and a robust backend system. The implementation not only enhanced the accuracy and transparency of petty cash management but also significantly reduced manual efforts and errors. ",
       "linkFE": "https://github.com/jermieo/RxWebsiteFrontEnd.git",
       "linkBE":  "https://github.com/jermieo/RxWebsiteBackEnd.git",
       "deployurl": "https://rx-website-front.netlify.app"
@@ -52,6 +52,15 @@
       "linkFE": "https://github.com/jermieo/foodFE.git",
       "linkBE": "https://github.com/jermieo/foodBE.git",
       "deployurl": "https://food-e-commerce.netlify.app"
+    },
+    {
+      "id": "4",
+      "src": "/assets/GitHub-Logo.png",
+      "title": "Room Booking",
+      "description": "I create simple RoomBooking I utilized technologies such as HTML, CSS, Javascript , React Js and Node Js to create a user-friendly interface and a robust backend system. The implementation not only enhanced the accuracy and transparency of petty cash management but also significantly reduced manual efforts and errors. This project reflects my ability to identify practical issues and deliver effective solutions through innovative and efficient coding practices",
+      "linkFE": "https://github.com/jermieo/RoomBooking.git",
+      "linkBE": "https://github.com/jermieo/RoomBookingBE.git",
+      "deployurl": "https://roombooking1.netlify.app"
     }
 
   ]
